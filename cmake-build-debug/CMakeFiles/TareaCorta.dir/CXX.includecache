@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/angelortizv/CLionProjects/TareaCorta/dataStructures/queue/queue.h
+iostream
+-
+
+/home/angelortizv/CLionProjects/TareaCorta/main.cpp
+iostream
+-
+productionLine/vehicles.h
+/home/angelortizv/CLionProjects/TareaCorta/productionLine/vehicles.h
+
+/home/angelortizv/CLionProjects/TareaCorta/productionLine/vehicles.h
+iostream
+-
+
+/home/angelortizv/CLionProjects/TareaCorta/tests.cpp
+iostream
+-
+dataStructures/queue/queue.h
+/home/angelortizv/CLionProjects/TareaCorta/dataStructures/queue/queue.h
+
