@@ -123,6 +123,60 @@ TareaCorta/fast:
 	$(MAKE) -f CMakeFiles/TareaCorta.dir/build.make CMakeFiles/TareaCorta.dir/build
 .PHONY : TareaCorta/fast
 
+dataStructures/linkedList/list.o: dataStructures/linkedList/list.cpp.o
+
+.PHONY : dataStructures/linkedList/list.o
+
+# target to build an object file
+dataStructures/linkedList/list.cpp.o:
+	$(MAKE) -f CMakeFiles/TareaCorta.dir/build.make CMakeFiles/TareaCorta.dir/dataStructures/linkedList/list.cpp.o
+.PHONY : dataStructures/linkedList/list.cpp.o
+
+dataStructures/linkedList/list.i: dataStructures/linkedList/list.cpp.i
+
+.PHONY : dataStructures/linkedList/list.i
+
+# target to preprocess a source file
+dataStructures/linkedList/list.cpp.i:
+	$(MAKE) -f CMakeFiles/TareaCorta.dir/build.make CMakeFiles/TareaCorta.dir/dataStructures/linkedList/list.cpp.i
+.PHONY : dataStructures/linkedList/list.cpp.i
+
+dataStructures/linkedList/list.s: dataStructures/linkedList/list.cpp.s
+
+.PHONY : dataStructures/linkedList/list.s
+
+# target to generate assembly for a file
+dataStructures/linkedList/list.cpp.s:
+	$(MAKE) -f CMakeFiles/TareaCorta.dir/build.make CMakeFiles/TareaCorta.dir/dataStructures/linkedList/list.cpp.s
+.PHONY : dataStructures/linkedList/list.cpp.s
+
+dataStructures/linkedList/node.o: dataStructures/linkedList/node.cpp.o
+
+.PHONY : dataStructures/linkedList/node.o
+
+# target to build an object file
+dataStructures/linkedList/node.cpp.o:
+	$(MAKE) -f CMakeFiles/TareaCorta.dir/build.make CMakeFiles/TareaCorta.dir/dataStructures/linkedList/node.cpp.o
+.PHONY : dataStructures/linkedList/node.cpp.o
+
+dataStructures/linkedList/node.i: dataStructures/linkedList/node.cpp.i
+
+.PHONY : dataStructures/linkedList/node.i
+
+# target to preprocess a source file
+dataStructures/linkedList/node.cpp.i:
+	$(MAKE) -f CMakeFiles/TareaCorta.dir/build.make CMakeFiles/TareaCorta.dir/dataStructures/linkedList/node.cpp.i
+.PHONY : dataStructures/linkedList/node.cpp.i
+
+dataStructures/linkedList/node.s: dataStructures/linkedList/node.cpp.s
+
+.PHONY : dataStructures/linkedList/node.s
+
+# target to generate assembly for a file
+dataStructures/linkedList/node.cpp.s:
+	$(MAKE) -f CMakeFiles/TareaCorta.dir/build.make CMakeFiles/TareaCorta.dir/dataStructures/linkedList/node.cpp.s
+.PHONY : dataStructures/linkedList/node.cpp.s
+
 dataStructures/queue/queue.o: dataStructures/queue/queue.cpp.o
 
 .PHONY : dataStructures/queue/queue.o
@@ -285,32 +339,32 @@ productionLine/vehicles.cpp.s:
 	$(MAKE) -f CMakeFiles/TareaCorta.dir/build.make CMakeFiles/TareaCorta.dir/productionLine/vehicles.cpp.s
 .PHONY : productionLine/vehicles.cpp.s
 
-tests.o: tests.cpp.o
+tests/generalTests.o: tests/generalTests.cpp.o
 
-.PHONY : tests.o
+.PHONY : tests/generalTests.o
 
 # target to build an object file
-tests.cpp.o:
-	$(MAKE) -f CMakeFiles/TareaCorta.dir/build.make CMakeFiles/TareaCorta.dir/tests.cpp.o
-.PHONY : tests.cpp.o
+tests/generalTests.cpp.o:
+	$(MAKE) -f CMakeFiles/TareaCorta.dir/build.make CMakeFiles/TareaCorta.dir/tests/generalTests.cpp.o
+.PHONY : tests/generalTests.cpp.o
 
-tests.i: tests.cpp.i
+tests/generalTests.i: tests/generalTests.cpp.i
 
-.PHONY : tests.i
+.PHONY : tests/generalTests.i
 
 # target to preprocess a source file
-tests.cpp.i:
-	$(MAKE) -f CMakeFiles/TareaCorta.dir/build.make CMakeFiles/TareaCorta.dir/tests.cpp.i
-.PHONY : tests.cpp.i
+tests/generalTests.cpp.i:
+	$(MAKE) -f CMakeFiles/TareaCorta.dir/build.make CMakeFiles/TareaCorta.dir/tests/generalTests.cpp.i
+.PHONY : tests/generalTests.cpp.i
 
-tests.s: tests.cpp.s
+tests/generalTests.s: tests/generalTests.cpp.s
 
-.PHONY : tests.s
+.PHONY : tests/generalTests.s
 
 # target to generate assembly for a file
-tests.cpp.s:
-	$(MAKE) -f CMakeFiles/TareaCorta.dir/build.make CMakeFiles/TareaCorta.dir/tests.cpp.s
-.PHONY : tests.cpp.s
+tests/generalTests.cpp.s:
+	$(MAKE) -f CMakeFiles/TareaCorta.dir/build.make CMakeFiles/TareaCorta.dir/tests/generalTests.cpp.s
+.PHONY : tests/generalTests.cpp.s
 
 # Help Target
 help:
@@ -321,6 +375,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... TareaCorta"
 	@echo "... edit_cache"
+	@echo "... dataStructures/linkedList/list.o"
+	@echo "... dataStructures/linkedList/list.i"
+	@echo "... dataStructures/linkedList/list.s"
+	@echo "... dataStructures/linkedList/node.o"
+	@echo "... dataStructures/linkedList/node.i"
+	@echo "... dataStructures/linkedList/node.s"
 	@echo "... dataStructures/queue/queue.o"
 	@echo "... dataStructures/queue/queue.i"
 	@echo "... dataStructures/queue/queue.s"
@@ -339,9 +399,9 @@ help:
 	@echo "... productionLine/vehicles.o"
 	@echo "... productionLine/vehicles.i"
 	@echo "... productionLine/vehicles.s"
-	@echo "... tests.o"
-	@echo "... tests.i"
-	@echo "... tests.s"
+	@echo "... tests/generalTests.o"
+	@echo "... tests/generalTests.i"
+	@echo "... tests/generalTests.s"
 .PHONY : help
 
 

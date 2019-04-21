@@ -70,22 +70,48 @@ CMakeFiles/TareaCorta.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TareaCorta.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/angelortizv/CLionProjects/TareaCorta/main.cpp -o CMakeFiles/TareaCorta.dir/main.cpp.s
 
-CMakeFiles/TareaCorta.dir/tests.cpp.o: CMakeFiles/TareaCorta.dir/flags.make
-CMakeFiles/TareaCorta.dir/tests.cpp.o: ../tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TareaCorta.dir/tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaCorta.dir/tests.cpp.o -c /home/angelortizv/CLionProjects/TareaCorta/tests.cpp
+CMakeFiles/TareaCorta.dir/tests/generalTests.cpp.o: CMakeFiles/TareaCorta.dir/flags.make
+CMakeFiles/TareaCorta.dir/tests/generalTests.cpp.o: ../tests/generalTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TareaCorta.dir/tests/generalTests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaCorta.dir/tests/generalTests.cpp.o -c /home/angelortizv/CLionProjects/TareaCorta/tests/generalTests.cpp
 
-CMakeFiles/TareaCorta.dir/tests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TareaCorta.dir/tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/angelortizv/CLionProjects/TareaCorta/tests.cpp > CMakeFiles/TareaCorta.dir/tests.cpp.i
+CMakeFiles/TareaCorta.dir/tests/generalTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TareaCorta.dir/tests/generalTests.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/angelortizv/CLionProjects/TareaCorta/tests/generalTests.cpp > CMakeFiles/TareaCorta.dir/tests/generalTests.cpp.i
 
-CMakeFiles/TareaCorta.dir/tests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TareaCorta.dir/tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/angelortizv/CLionProjects/TareaCorta/tests.cpp -o CMakeFiles/TareaCorta.dir/tests.cpp.s
+CMakeFiles/TareaCorta.dir/tests/generalTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TareaCorta.dir/tests/generalTests.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/angelortizv/CLionProjects/TareaCorta/tests/generalTests.cpp -o CMakeFiles/TareaCorta.dir/tests/generalTests.cpp.s
+
+CMakeFiles/TareaCorta.dir/dataStructures/linkedList/list.cpp.o: CMakeFiles/TareaCorta.dir/flags.make
+CMakeFiles/TareaCorta.dir/dataStructures/linkedList/list.cpp.o: ../dataStructures/linkedList/list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TareaCorta.dir/dataStructures/linkedList/list.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaCorta.dir/dataStructures/linkedList/list.cpp.o -c /home/angelortizv/CLionProjects/TareaCorta/dataStructures/linkedList/list.cpp
+
+CMakeFiles/TareaCorta.dir/dataStructures/linkedList/list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TareaCorta.dir/dataStructures/linkedList/list.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/angelortizv/CLionProjects/TareaCorta/dataStructures/linkedList/list.cpp > CMakeFiles/TareaCorta.dir/dataStructures/linkedList/list.cpp.i
+
+CMakeFiles/TareaCorta.dir/dataStructures/linkedList/list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TareaCorta.dir/dataStructures/linkedList/list.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/angelortizv/CLionProjects/TareaCorta/dataStructures/linkedList/list.cpp -o CMakeFiles/TareaCorta.dir/dataStructures/linkedList/list.cpp.s
+
+CMakeFiles/TareaCorta.dir/dataStructures/linkedList/node.cpp.o: CMakeFiles/TareaCorta.dir/flags.make
+CMakeFiles/TareaCorta.dir/dataStructures/linkedList/node.cpp.o: ../dataStructures/linkedList/node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TareaCorta.dir/dataStructures/linkedList/node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaCorta.dir/dataStructures/linkedList/node.cpp.o -c /home/angelortizv/CLionProjects/TareaCorta/dataStructures/linkedList/node.cpp
+
+CMakeFiles/TareaCorta.dir/dataStructures/linkedList/node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TareaCorta.dir/dataStructures/linkedList/node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/angelortizv/CLionProjects/TareaCorta/dataStructures/linkedList/node.cpp > CMakeFiles/TareaCorta.dir/dataStructures/linkedList/node.cpp.i
+
+CMakeFiles/TareaCorta.dir/dataStructures/linkedList/node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TareaCorta.dir/dataStructures/linkedList/node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/angelortizv/CLionProjects/TareaCorta/dataStructures/linkedList/node.cpp -o CMakeFiles/TareaCorta.dir/dataStructures/linkedList/node.cpp.s
 
 CMakeFiles/TareaCorta.dir/dataStructures/queue/queue.cpp.o: CMakeFiles/TareaCorta.dir/flags.make
 CMakeFiles/TareaCorta.dir/dataStructures/queue/queue.cpp.o: ../dataStructures/queue/queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TareaCorta.dir/dataStructures/queue/queue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TareaCorta.dir/dataStructures/queue/queue.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaCorta.dir/dataStructures/queue/queue.cpp.o -c /home/angelortizv/CLionProjects/TareaCorta/dataStructures/queue/queue.cpp
 
 CMakeFiles/TareaCorta.dir/dataStructures/queue/queue.cpp.i: cmake_force
@@ -98,7 +124,7 @@ CMakeFiles/TareaCorta.dir/dataStructures/queue/queue.cpp.s: cmake_force
 
 CMakeFiles/TareaCorta.dir/dataStructures/queue/queueItem.cpp.o: CMakeFiles/TareaCorta.dir/flags.make
 CMakeFiles/TareaCorta.dir/dataStructures/queue/queueItem.cpp.o: ../dataStructures/queue/queueItem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TareaCorta.dir/dataStructures/queue/queueItem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TareaCorta.dir/dataStructures/queue/queueItem.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaCorta.dir/dataStructures/queue/queueItem.cpp.o -c /home/angelortizv/CLionProjects/TareaCorta/dataStructures/queue/queueItem.cpp
 
 CMakeFiles/TareaCorta.dir/dataStructures/queue/queueItem.cpp.i: cmake_force
@@ -111,7 +137,7 @@ CMakeFiles/TareaCorta.dir/dataStructures/queue/queueItem.cpp.s: cmake_force
 
 CMakeFiles/TareaCorta.dir/productionLine/vehicles.cpp.o: CMakeFiles/TareaCorta.dir/flags.make
 CMakeFiles/TareaCorta.dir/productionLine/vehicles.cpp.o: ../productionLine/vehicles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TareaCorta.dir/productionLine/vehicles.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TareaCorta.dir/productionLine/vehicles.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaCorta.dir/productionLine/vehicles.cpp.o -c /home/angelortizv/CLionProjects/TareaCorta/productionLine/vehicles.cpp
 
 CMakeFiles/TareaCorta.dir/productionLine/vehicles.cpp.i: cmake_force
@@ -124,7 +150,7 @@ CMakeFiles/TareaCorta.dir/productionLine/vehicles.cpp.s: cmake_force
 
 CMakeFiles/TareaCorta.dir/productionLine/factoryProcesses/processes.cpp.o: CMakeFiles/TareaCorta.dir/flags.make
 CMakeFiles/TareaCorta.dir/productionLine/factoryProcesses/processes.cpp.o: ../productionLine/factoryProcesses/processes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TareaCorta.dir/productionLine/factoryProcesses/processes.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TareaCorta.dir/productionLine/factoryProcesses/processes.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaCorta.dir/productionLine/factoryProcesses/processes.cpp.o -c /home/angelortizv/CLionProjects/TareaCorta/productionLine/factoryProcesses/processes.cpp
 
 CMakeFiles/TareaCorta.dir/productionLine/factoryProcesses/processes.cpp.i: cmake_force
@@ -137,7 +163,7 @@ CMakeFiles/TareaCorta.dir/productionLine/factoryProcesses/processes.cpp.s: cmake
 
 CMakeFiles/TareaCorta.dir/productionLine/factoryProcesses/processManager.cpp.o: CMakeFiles/TareaCorta.dir/flags.make
 CMakeFiles/TareaCorta.dir/productionLine/factoryProcesses/processManager.cpp.o: ../productionLine/factoryProcesses/processManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TareaCorta.dir/productionLine/factoryProcesses/processManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TareaCorta.dir/productionLine/factoryProcesses/processManager.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaCorta.dir/productionLine/factoryProcesses/processManager.cpp.o -c /home/angelortizv/CLionProjects/TareaCorta/productionLine/factoryProcesses/processManager.cpp
 
 CMakeFiles/TareaCorta.dir/productionLine/factoryProcesses/processManager.cpp.i: cmake_force
@@ -151,7 +177,9 @@ CMakeFiles/TareaCorta.dir/productionLine/factoryProcesses/processManager.cpp.s: 
 # Object files for target TareaCorta
 TareaCorta_OBJECTS = \
 "CMakeFiles/TareaCorta.dir/main.cpp.o" \
-"CMakeFiles/TareaCorta.dir/tests.cpp.o" \
+"CMakeFiles/TareaCorta.dir/tests/generalTests.cpp.o" \
+"CMakeFiles/TareaCorta.dir/dataStructures/linkedList/list.cpp.o" \
+"CMakeFiles/TareaCorta.dir/dataStructures/linkedList/node.cpp.o" \
 "CMakeFiles/TareaCorta.dir/dataStructures/queue/queue.cpp.o" \
 "CMakeFiles/TareaCorta.dir/dataStructures/queue/queueItem.cpp.o" \
 "CMakeFiles/TareaCorta.dir/productionLine/vehicles.cpp.o" \
@@ -162,7 +190,9 @@ TareaCorta_OBJECTS = \
 TareaCorta_EXTERNAL_OBJECTS =
 
 TareaCorta: CMakeFiles/TareaCorta.dir/main.cpp.o
-TareaCorta: CMakeFiles/TareaCorta.dir/tests.cpp.o
+TareaCorta: CMakeFiles/TareaCorta.dir/tests/generalTests.cpp.o
+TareaCorta: CMakeFiles/TareaCorta.dir/dataStructures/linkedList/list.cpp.o
+TareaCorta: CMakeFiles/TareaCorta.dir/dataStructures/linkedList/node.cpp.o
 TareaCorta: CMakeFiles/TareaCorta.dir/dataStructures/queue/queue.cpp.o
 TareaCorta: CMakeFiles/TareaCorta.dir/dataStructures/queue/queueItem.cpp.o
 TareaCorta: CMakeFiles/TareaCorta.dir/productionLine/vehicles.cpp.o
@@ -170,7 +200,7 @@ TareaCorta: CMakeFiles/TareaCorta.dir/productionLine/factoryProcesses/processes.
 TareaCorta: CMakeFiles/TareaCorta.dir/productionLine/factoryProcesses/processManager.cpp.o
 TareaCorta: CMakeFiles/TareaCorta.dir/build.make
 TareaCorta: CMakeFiles/TareaCorta.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable TareaCorta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable TareaCorta"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TareaCorta.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

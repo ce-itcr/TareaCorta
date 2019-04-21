@@ -13,6 +13,7 @@ int main(){
         cout << "Ingrese el número de vehiculo que desea fabricar: ";
         cin >> car;
         v1->vehicleSelector(car);
-
+        
     }
+
 }

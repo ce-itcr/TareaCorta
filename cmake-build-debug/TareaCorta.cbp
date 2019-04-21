@@ -88,6 +88,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/angelortizv/CLionProjects/TareaCorta/dataStructures/linkedList/list.cpp">
+			<Option target="TareaCorta"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/TareaCorta/dataStructures/linkedList/list.h">
+			<Option target="TareaCorta"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/TareaCorta/dataStructures/linkedList/node.cpp">
+			<Option target="TareaCorta"/>
+		</Unit>
+		<Unit filename="/home/angelortizv/CLionProjects/TareaCorta/dataStructures/linkedList/node.h">
+			<Option target="TareaCorta"/>
+		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/TareaCorta/dataStructures/queue/queue.cpp">
 			<Option target="TareaCorta"/>
 		</Unit>
@@ -121,7 +133,7 @@
 		<Unit filename="/home/angelortizv/CLionProjects/TareaCorta/productionLine/vehicles.h">
 			<Option target="TareaCorta"/>
 		</Unit>
-		<Unit filename="/home/angelortizv/CLionProjects/TareaCorta/tests.cpp">
+		<Unit filename="/home/angelortizv/CLionProjects/TareaCorta/tests/generalTests.cpp">
 			<Option target="TareaCorta"/>
 		</Unit>
 		<Unit filename="/home/angelortizv/CLionProjects/TareaCorta/CMakeLists.txt">

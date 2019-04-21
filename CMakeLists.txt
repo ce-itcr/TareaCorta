@@ -13,8 +13,11 @@ set(CMAKE_CXX_STANDARD 11)
 set(SOURCE_FILES
 
         main.cpp
-        tests.cpp
 
+        tests/generalTests.cpp
+
+        dataStructures/linkedList/list.cpp
+        dataStructures/linkedList/node.cpp
         dataStructures/queue/queue.cpp
         dataStructures/queue/queueItem.cpp
 
