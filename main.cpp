@@ -1,19 +1,11 @@
-#include <iostream>
-#include "productionLine/vehicles.h"
+#include "mainwindow.h"
+#include <QApplication>
 
-using namespace std;
+int main(int argc, char *argv[])
+{
+    QApplication a(argc, argv);
+    MainWindow w;
+    w.show();
 
-int main(){
-
-    bool running = true;
-    while(running){
-
-        int car;
-        vehicles* v1 = &vehicles::getInstance();
-        cout << "Ingrese el número de vehiculo que desea fabricar: ";
-        cin >> car;
-        v1->vehicleSelector(car);
-        
-    }
-
+    return a.exec();
 }

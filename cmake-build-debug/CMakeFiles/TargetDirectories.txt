@@ -1,3 +1,0 @@
-/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles/TareaCorta.dir
-/home/angelortizv/CLionProjects/TareaCorta/cmake-build-debug/CMakeFiles/edit_cache.dir
