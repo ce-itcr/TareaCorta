@@ -11,22 +11,25 @@
 #define TAREACORTA_QUEUEITEM_H
 
 #include <iostream>
+#include <cstring>
 
 using namespace std;
 
-class queueItem{
+
+class QueueItem {
+
 private:
     char _data[30];
     const int _itemId;
-    queueItem* _pNext;
+    QueueItem* _pNext;
+
 public:
-    queueItem( char *pData, int id);
-    void setNext(queueItem *pItem);
-    queueItem* getNext() const;
+    QueueItem( char *pData, int id);
+    void setNext(QueueItem *pItem);
+    QueueItem* getNext() const;
     int getId() const;
     const char* getData() const;
 };
-
 
 
 #endif //TAREACORTA_QUEUEITEM_H

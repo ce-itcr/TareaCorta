@@ -11,25 +11,31 @@
 #define TAREACORTA_QUEUE_H
 
 #include <iostream>
+#include "src/Node.h"
 
 using namespace std;
 
-class queueItem;
+class QueueItem;
 
-class queue{
+class Queue {
+
 private:
-    queueItem *_pHead;
-    queueItem *_pTail;
+    Node *_pHead;
+    Node *_pTail;
     int _itemCounter;
+    int cont;
+
 public:
-    queue();
-    ~queue();
-    void addItem(char *pData);
+    Queue();
+    ~Queue();
+
+    int getCont() const;
+
+    void addItem(Node* node);
     void removeItem();
     void print();
     void erase();
 
 };
-
 
 #endif //TAREACORTA_QUEUE_H

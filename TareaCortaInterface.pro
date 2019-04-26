@@ -25,20 +25,35 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp \
         gui.cpp \
-        dataStructures/queue/queue.cpp \
-        dataStructures/queue/queueItem.cpp
+        src/Vehicle.cpp \
+        dataStructures/queue/Queue.cpp \
+        dataStructures/queue/QueueItem.cpp \
+        src/Vehicles.cpp \
+        src/Utils.cpp \
+        src/Node.cpp \
+        about.cpp \
+        src/Processes.cpp \
+        src/principal.cpp \
+        mainwindow.cpp
 
 HEADERS += \
     gui.h \
     mainwindow.h \
-    dataStructures/queue/queue.h \
-    dataStructures/queue/queueItem.h
+    src/Vehicle.h \
+    dataStructures/queue/Queue.h \
+    dataStructures/queue/QueueItem.h \
+    src/Vehicles.h \
+    src/Utils.h \
+    src/Node.h \
+    about.h \
+    src/Processes.h \
+    src/principal.h
 
 FORMS += \
         mainwindow.ui \
-        gui.ui
+        gui.ui \
+        about.ui
 
 DISTFILES +=
 
