@@ -6,8 +6,9 @@ Util::Util()
 }
 
 /**
- * @brief Util::getDate
- * @return
+ * @title getDate
+ * @brief Recolecta información de hora del sistema
+ * @return date
  */
 string Util::getDate(){
     time_t t = time(NULL);
@@ -47,7 +48,7 @@ string Util::getDate(){
     if(atoi(Sec.c_str()) < 10)
         Sec = "0"+Sec;
 
-    string Fecha = Year+Month+Day+"_"+Hour+Min+Sec;
+    string date = Year+Month+Day+"_"+Hour+Min+Sec;
 
-    return Fecha;
+    return date;
 }

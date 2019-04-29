@@ -26,7 +26,8 @@ MainWindow::~MainWindow()
 }
 
 /**
- * @brief MainWindow::on_exit_Button_clicked
+ * @title on_exit_Button_clicked
+ * @brief Cierra la aplicación desde la interfaz
  */
 void MainWindow::on_exit_Button_clicked()
 {
@@ -34,4 +35,13 @@ void MainWindow::on_exit_Button_clicked()
     cout << "--------------------- " << utils->getDate() << " ---------------------" << endl;
     cout << "--------------- Fábrica de Vehículos Cerrada --------------" << endl;
     this->close();
+}
+
+/**
+ * @title on_start_Button_clicked
+ * @brief Inicia los procesos en línea de producción
+ */
+void MainWindow::on_start_Button_clicked()
+{
+    cout << "test inicia" << endl;
 }

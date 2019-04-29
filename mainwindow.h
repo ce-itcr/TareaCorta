@@ -28,6 +28,8 @@ public:
 private slots:
     void on_exit_Button_clicked();
 
+    void on_start_Button_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['takeprocess',['takeProcess',['../class_processes.html#a807db56dd2f8670e9fa0e776797feb9e',1,'Processes']]]
+  ['printprocesses',['printProcesses',['../class_processes.html#a0aca31162b76e4462767ad1b4365d131',1,'Processes']]],
+  ['putprocess',['putProcess',['../class_processes.html#a5ab3e38dc74bcb94f26c28516db68db8',1,'Processes']]]
 ];

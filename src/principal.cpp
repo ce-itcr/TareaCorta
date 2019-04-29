@@ -10,9 +10,10 @@ principal::principal(MainWindow *w, QLabel **ArrayL, QProgressBar **ArrayB){
 }
 
 /**
- * @brief principal::generateBars
+ * @title factoryProcesses
+ * @brief principal::factoryProcesses
  */
-void principal::generateBars(){
+void principal::factoryProcesses(){
 
     QProgressBar* B;
     QLabel* L;
@@ -61,6 +62,7 @@ void principal::generateBars(){
 }
 
 /**
+ * @title update
  * @brief principal::update
  */
 void principal::update(){
@@ -89,16 +91,14 @@ void principal::update(){
     }
 }
 /**
+ * @title updateCycle
  * @brief principal::updateCycle
  */
 void principal::updateCycle(){
-
     unsigned int msWait=2000;
     int limit=30;
 
     for (int i=0;i<limit;i++){
-        //qDebug()<<"#"<<i;
-
         LabelSec->setText("Tiempo de Ejecución: "+QString::number(i)+"s");
         usleep(50*1000);
         qDebug()<<" SIGUIENTE=======>";
@@ -116,8 +116,6 @@ void principal::updateCycle(){
         p1->printProcesses();
 
         usleep(msWait*1000);
-
     }
-
     return;
 }

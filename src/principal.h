@@ -44,7 +44,7 @@ public:
     principal(MainWindow *w, QLabel **ArrayL, QProgressBar **ArrayB);
     void update();
     void updateCycle();
-    void generateBars();
+    void factoryProcesses();
 };
 
 

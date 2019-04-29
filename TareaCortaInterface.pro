@@ -31,7 +31,9 @@ SOURCES += \
     src/principal.cpp \
     src/util.cpp \
     src/processes.cpp \
-    src/vehicle.cpp
+    src/vehicle.cpp \
+    src/vehicles.cpp \
+    src/node.cpp
 
 HEADERS += \
     mainwindow.h \
@@ -39,7 +41,9 @@ HEADERS += \
     src/principal.h \
     src/util.h \
     src/processes.h \
-    src/vehicle.h
+    src/vehicle.h \
+    src/vehicles.h \
+    src/node.h
 
 FORMS += \
     mainwindow.ui

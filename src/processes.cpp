@@ -19,6 +19,7 @@ void Processes::takeProcess(int actualProcess, int vehicle){
 }
 
 /**
+ * @title putProcess
  * @brief Processes::putProcess
  * @param actualProcess
  * @param vehicle
@@ -34,6 +35,7 @@ void Processes::putProcess(int actualProcess, int vehicle){
 }
 
 /**
+ * @title consultProcess
  * @brief Processes::consultProcess
  * @param actualProcess
  * @param vehicle
@@ -49,6 +51,7 @@ bool Processes::consultProcess(int actualProcess, int vehicle){
 }
 
 /**
+ * @title printProcesses
  * @brief Processes::printProcesses
  */
 void Processes::printProcesses(){
