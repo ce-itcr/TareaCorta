@@ -1,19 +1,18 @@
 /**
  * @file mainwindow.h
  * @version 1.0
- * @date 25/04/19-
- * @authors angelortizv
- * @title
- * @brief
+ * @date 21/04/19-28/04/19
+ * @authors angelortiz
  */
 
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "ui_mainwindow.h"
-#include "gui.h"
-#include "about.h"
+#include <iostream>
+#include "src/util.h"
+
+using namespace std;
 
 namespace Ui {
 class MainWindow;
@@ -22,15 +21,12 @@ class MainWindow;
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
-
 public:
-    explicit MainWindow(QWidget *parent = 0);
+    explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
 private slots:
-    void on_startButton_clicked();
-
-    void on_acercade_clicked();
+    void on_exit_Button_clicked();
 
 private:
     Ui::MainWindow *ui;

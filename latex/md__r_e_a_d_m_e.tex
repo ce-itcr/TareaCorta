@@ -1,0 +1,32 @@
+El presente corresponde a la Tarea Corta del Curso de Algoritmos y Estructuras de Datos II (C\+E2103), I Semestre 2019. La misma pretende profundizar el concepto de gestión de memoria desde la perspectiva de la codificación del software.
+
+\doxysection*{Especificación}
+
+El contexto que se utiliza para esta implementación es el siguiente\+:
+
+
+\begin{DoxyEnumerate}
+\item Una fábrica de vehículos tiene 6 líneas diferentes de producción\+: Vehículo tipo 1, Vehículo tipo 2, Vehículo tipo 3, Vehículo tipo 4, Vehículo tipo 5 y Vehículo tipo 6.
+\item Cada línea de producción utiliza los siguientes procesos\+: Proceso A, Proceso B, Proceso C, Proceso D y Proceso E. Cada línea de producción define su propio orden para estos procesos.
+\item Para cada proceso se define un tiempo de producción de acuerdo a la línea de producción
+\item Por cada proceso existe un encargado que es el que maneja la agenda del proceso para todas las solicitudes de las líneas de producción.
+\item Cada línea de producción puede atender solamente 3 procesos al mismo tiempo.
+\item Cuando una línea de producción solicita un proceso y ya la agenda de ese proceso está llena, debe dar prioridad a la nueva solicitud y poner en pausa alguna de las que estaba realizando.
+\item Los procesos que se ponen en pausa pasan a una cola de espera general (de todos los procesos). Cada 5 segundos el que esté de primero en la cola debe ser atendido.
+\end{DoxyEnumerate}
+
+Debe mostrarse en tiempo real los procesos que se están ejecutando y los que están en cola de espera. Además, se debe visualizar aspectos como paginación e intercambio de páginas.
+
+\doxysection*{Autores}
+
+
+\begin{DoxyItemize}
+\item {\bfseries{Angelo Ortiz}} -\/ {\itshape Desarrollador} -\/ \href{https://github.com/angelortizv}{\texttt{ angelortizv}}
+\item {\bfseries{Iván Solís}} -\/ {\itshape Desarrollador} -\/ \href{https://github.com/isolis2000}{\texttt{ isolis2000}}
+\item {\bfseries{Jonathan Esquivel}} -\/ {\itshape Desarrollador} -\/ \href{https://github.com/jesquivel48}{\texttt{ jesquivel48}}
+\item {\bfseries{Agustín Venegas}} -\/ {\itshape Desarrollador} -\/ \href{https://github.com/JoseAgus00}{\texttt{ Jose\+Agus00}}
+\end{DoxyItemize}
+
+
+
+ 

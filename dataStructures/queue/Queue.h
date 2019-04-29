@@ -1,41 +1,34 @@
 /**
- * @file queue.h
+ * @file Queue.h
  * @version 1.0
  * @date 21/04/19-
  * @authors angelortizv
- * @title
- * @brief
  */
 
 #ifndef TAREACORTA_QUEUE_H
 #define TAREACORTA_QUEUE_H
 
 #include <iostream>
-#include "src/Node.h"
 
 using namespace std;
 
-class QueueItem;
+class queueItem;
 
-class Queue {
-
+class queue{
 private:
-    Node *_pHead;
-    Node *_pTail;
+    queueItem *_pHead;
+    queueItem *_pTail;
     int _itemCounter;
-    int cont;
-
 public:
-    Queue();
-    ~Queue();
-
-    int getCont() const;
-
-    void addItem(Node* node);
+    queue();
+    ~queue();
+    void addItem(char *pData);
     void removeItem();
     void print();
     void erase();
+    bool emptyQueue();
 
 };
+
 
 #endif //TAREACORTA_QUEUE_H

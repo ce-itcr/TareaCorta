@@ -22,40 +22,27 @@ DEFINES += QT_DEPRECATED_WARNINGS
 # You can also select to disable deprecated APIs only up to a certain version of Qt.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
+CONFIG += c++11
 
 SOURCES += \
-        main.cpp \
-        gui.cpp \
-        src/Vehicle.cpp \
-        dataStructures/queue/Queue.cpp \
-        dataStructures/queue/QueueItem.cpp \
-        src/Vehicles.cpp \
-        src/Utils.cpp \
-        src/Node.cpp \
-        about.cpp \
-        src/Processes.cpp \
-        src/principal.cpp \
-        mainwindow.cpp
+    main.cpp \
+    mainwindow.cpp \
+    dataStructures/queueAux/queue.cpp \
+    src/principal.cpp \
+    src/util.cpp \
+    src/processes.cpp \
+    src/vehicle.cpp
 
 HEADERS += \
-    gui.h \
     mainwindow.h \
-    src/Vehicle.h \
-    dataStructures/queue/Queue.h \
-    dataStructures/queue/QueueItem.h \
-    src/Vehicles.h \
-    src/Utils.h \
-    src/Node.h \
-    about.h \
-    src/Processes.h \
-    src/principal.h
+    dataStructures/queueAux/queue.h \
+    src/principal.h \
+    src/util.h \
+    src/processes.h \
+    src/vehicle.h
 
 FORMS += \
-        mainwindow.ui \
-        gui.ui \
-        about.ui
-
-DISTFILES +=
+    mainwindow.ui
 
 RESOURCES += \
     img/img.qrc

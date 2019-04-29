@@ -1,22 +1,23 @@
+#include <cstring>
 #include "QueueItem.h"
 
-QueueItem::QueueItem( char *pData, int id) : _itemId(id) {
+queueItem::queueItem( char *pData, int id) : _itemId(id) {
     strncpy( _data, pData, strlen( pData ) +1 );
     _pNext = NULL;
 }
 
-void QueueItem::setNext( QueueItem *pItem ){
+void queueItem::setNext( queueItem *pItem ){
     _pNext = pItem;
 }
 
-QueueItem* QueueItem::getNext() const{
+queueItem* queueItem::getNext() const{
     return _pNext;
 }
 
-int QueueItem::getId() const{
+int queueItem::getId() const{
     return _itemId;
 }
 
-const char* QueueItem::getData() const{
+const char* queueItem::getData() const{
     return _data;
 }

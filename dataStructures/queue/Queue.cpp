@@ -1,66 +1,60 @@
 #include "Queue.h"
+#include "QueueItem.h"
 
-Queue::Queue(){
-    Node* _pNext = _pHead = _pTail = 0;
+queue::queue(){
+    queueItem* _pNext = _pHead = _pTail = 0;
     _itemCounter = 0;
 }
 
-Queue::~Queue(){
+queue::~queue(){
 
 }
 
-//void Queue::addItem(char *pData){
-//    QueueItem *pItem = new QueueItem(pData, ++_itemCounter);
-//
-//    if ( 0 == _pHead )
-//        _pHead = _pTail = pItem;
-//    else{
-//        _pTail->setNext(pItem);
-//        _pTail = pItem;
-//    }
-//    QueueItem* _pNext = 0;
-//}
+void queue::addItem(char *pData){
+    queueItem *pItem = new queueItem(pData, ++_itemCounter);
 
-void Queue::addItem(Node* node) {
-    if (_pHead == 0)
-        _pHead = _pTail = node;
-    else {
-        _pTail->setNext(node);
-        _pTail = node;
+    if ( 0 == _pHead )
+        _pHead = _pTail = pItem;
+    else{
+        _pTail->setNext(pItem);
+        _pTail = pItem;
     }
-    Node* _pNext = 0;
+    queueItem* _pNext = 0;
 }
 
 
-void Queue::removeItem(){
+void queue::removeItem(){
     if ( _pTail == 0 && _pHead == 0 ){
         // empty body
     }
     else{
-        Node* _pItem = _pHead->getNext();
+        queueItem* _pItem = _pHead->getNext();
         delete _pHead;
         _pHead = _pItem;
     }
 
 }
 
-void Queue::print(){
-    Node* _pItem = _pHead;
+void queue::print(){
+    queueItem* _pItem = _pHead;
     while ( _pItem != NULL ){
-        cout << _pItem->getName() << endl;
-        cout << _pItem->getProcess() << endl;
+        cout << _pItem->getId() << endl;
+        cout << _pItem->getData() << endl;
         _pItem = _pItem->getNext();
     }
 }
 
-void Queue::erase(){
+void queue::erase(){
     while ( _pHead != NULL ){
-        Node* _pItem = _pHead->getNext();
+        queueItem* _pItem = _pHead->getNext();
         delete _pHead;
         _pHead = _pItem;
     }
 }
 
-int Queue::getCont() const {
-    return cont;
+bool queue::emptyQueue(){
+
+    if(_pTail == NULL)
+        return true;
+    else return false;
 }

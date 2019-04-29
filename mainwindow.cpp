@@ -1,24 +1,22 @@
 #include "mainwindow.h"
+#include "ui_mainwindow.h"
 #include <QMovie>
-#include <QLabel>
-#include <QFrame>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    Util* utils = &Util::getInstance();
+    cout << "------------------- Tarea Corta, CE2103 -------------------" << endl;
+    cout << "--------------------- " << utils->getDate() << " ---------------------" << endl;
+    cout << "-------------- Fábrica de Vehículos Iniciada --------------" << endl;
 
-//    QLabel *gif = new QLabel(this);
-//    gif->setFrameStyle(QFrame::Panel | QFrame::Sunken);
-//    gif->setStyleSheet("border: 0px;");
-
-//    QMovie *movie = new QMovie(":/rick.gif");
-//    gif->setMovie (movie);
-//    movie->start ();
-//    gif->setGeometry(220,180,800,300);
-//    gif->setAlignment(Qt::AlignCenter);
-//    gif->lower();
+    QMovie *movie = new QMovie(":/loading2.gif");
+    QLabel *processLabel = new QLabel(this);
+    processLabel->setMovie(movie);
+    processLabel->setGeometry(470,390,500,250);
+    movie->start();
 
 }
 
@@ -27,18 +25,13 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::on_startButton_clicked()
+/**
+ * @brief MainWindow::on_exit_Button_clicked
+ */
+void MainWindow::on_exit_Button_clicked()
 {
-    close();
-    gui processes;
-    processes.setModal(true);
-    processes.exec();
-}
-
-void MainWindow::on_acercade_clicked()
-{
-    close();
-    aboutApp about;
-    about.setModal(true);
-    about.exec();
+    Util* utils = &Util::getInstance();
+    cout << "--------------------- " << utils->getDate() << " ---------------------" << endl;
+    cout << "--------------- Fábrica de Vehículos Cerrada --------------" << endl;
+    this->close();
 }
