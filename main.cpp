@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     MainWindow w;
 
-    Util* utils = &Util::getInstance();
+    Util* utils = new Util();
     principal* main = new principal(&w,utils->ArrayL,utils->ArrayB);
     main->factoryProcesses();
 

@@ -9,26 +9,15 @@
 #define VEHICLE_H
 
 #include <iostream>
-#include "dataStructures/queueAux/queue.h"
-#include "node.h"
+#include <queue>
+#include "dataStructures/queue/queue.h"
 #include "processes.h"
-#include "util.h"
 
 using namespace std;
 
 class Vehicle {
 
 private:
-    int processCount;
-    int a, b, c, d, e, f;
-    Node A, B, C, D, E, F;
-    int cNum;
-    Queue queue;
-    Node generateNode(string letter);
-    int getNumbOfVeh();
-    void processQueue();
-
-
     int vehicleId;
     char processesOrder[6];
     char message = 0;
@@ -44,15 +33,6 @@ public:
     int getActualStateAux();
     int getActualState() const;
     void setActualState(int value);
-
-    int getCNum() const;
-    Vehicle(int a, int b, int c, int d, int e, int f, int cNum);
-    int* getA();
-    int* getB();
-    int* getC();
-    int* getD();
-    int* getE();
-    int* getF();
 
 
 };

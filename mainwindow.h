@@ -10,7 +10,7 @@
 
 #include <QMainWindow>
 #include <iostream>
-#include "src/util.h"
+#include "src/util/util.h"
 
 using namespace std;
 
@@ -26,9 +26,10 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_exit_Button_clicked();
 
-    void on_start_Button_clicked();
+    void on_exitButton_clicked();
+
+    void on_infoButton_clicked();
 
 private:
     Ui::MainWindow *ui;

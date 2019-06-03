@@ -11,7 +11,7 @@
 #include <iostream>
 #include <qdebug.h>
 #include <queue>
-#include "util.h"
+#include "util/util.h"
 
 using namespace std;
 

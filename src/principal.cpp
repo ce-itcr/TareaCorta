@@ -22,33 +22,33 @@ void principal::factoryProcesses(){
 
     QLabel* Labeltmp=new QLabel(w);
     Labeltmp->setText("Cola de espera");
-    Labeltmp->setGeometry(800,0,100,100);
+    Labeltmp->setGeometry(500,0,100,100);
 
     QLabel* Labeltmp2=new QLabel(w);
     Labeltmp2->setText("Línea de Producción");
-    Labeltmp2->setGeometry(580,0,200,100);
+    Labeltmp2->setGeometry(330,0,200,100);
 
     this->LabelSec=new QLabel(w);
-    this->LabelSec->setGeometry(570,320,200,20);
+    this->LabelSec->setGeometry(330,320,200,20);
 
     this->List=new QListWidget(w);
-    this->List->setGeometry(795,70,100,250);
+    this->List->setGeometry(500,70,100,250);
 
     for (int i=0;i<6;i++){
         h=40*i+75;
 
         Ltmp=new QLabel(w);
-        Ltmp->setGeometry(570,h,20,20);
+        Ltmp->setGeometry(330,h,20,20);
         Ltmp->setText("V"+QString::number(i+1));
         usleep(50*1000);
 
         L=new QLabel(w);
-        L->setGeometry(700,h,100,20);
+        L->setGeometry(460,h,100,20);
         L->setText(QString::number(i+1));
         usleep(50*1000);
 
         B=new QProgressBar (w);
-        B->setGeometry(590,h,100,20);
+        B->setGeometry(360,h,100,20);
         B->setValue(10*i);
            usleep(50*1000);
 
@@ -99,7 +99,7 @@ void principal::updateCycle(){
     int limit=30;
 
     for (int i=0;i<limit;i++){
-        LabelSec->setText("Tiempo de Ejecución: "+QString::number(i)+"s");
+        LabelSec->setText("Tiempo de Ejecución: "+QString::number(i)+" s");
         usleep(50*1000);
         qDebug()<<" SIGUIENTE=======>";
         if (i%5==0 && !processesQueue.emptyQueue()){

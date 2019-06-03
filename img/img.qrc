@@ -1,6 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>logo_tec.png</file>
-        <file>loading2.gif</file>
-    </qresource>
-</RCC>

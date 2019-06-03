@@ -67,7 +67,7 @@ void Processes::printProcesses(){
                 cout<<processes[i][j]+1<<"-";
             }
         }
-        cout<<endl;
+        cout<<""<<endl;
     }
 //    cout<<"------------------- Fin del reporte -------------------\n" << endl;
 }

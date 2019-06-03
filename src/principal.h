@@ -22,7 +22,7 @@
 #include <queue>
 #include <iostream>
 #include "src/vehicle.h"
-#include "dataStructures/queueAux/queue.h"
+#include "dataStructures/queue/queue.h"
 
 using namespace std;
 
